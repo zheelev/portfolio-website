@@ -10,7 +10,7 @@ This project is a personal portfolio that contains information about me, my proj
 
 ## Installation
 
-    To install the project, clone the repository and install dependencies:
+To install the project, clone the repository and install dependencies:
 
         ```bash
                 git clone https://github.com/anatolii-zhelev/portfolio-website.git
