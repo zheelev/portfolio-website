@@ -149,8 +149,7 @@ const AboutSection = () => {
     return (
         <section className="text-white h-745px" id="about">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-
-                <div className="lg:col-span-3 p-6 text-white">
+                <div className="lg:col-span-3 pb-6 text-white">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base md:text-lg">Hello! My name is Anatolii, and I am a junior front-end developer. I work with HTML, CSS, JavaScript, and I’m actively learning React and Next.js. I also have experience with Bootstrap and am studying Tailwind CSS. Additionally, I am proficient in Figma and Photoshop, which helps me create user-friendly and visually appealing interfaces.
                         What I enjoy the most is creating something new — it’s what keeps me motivated to keep moving forward. In my free time, I love spending time with my child, which gives me energy and inspiration.
@@ -158,7 +157,7 @@ const AboutSection = () => {
                 </div>
 
                 <div className="lg:col-span-3 md:grid md:grid-cols-1 lg:grid-cols-2 lg:gap-4">
-                    <div className=" w-full h-[70vh] md:h-[70vh] lg:h-[55vh] bg-cover bg-center">
+                    <div className=" w-full h-[70vh] md:h-[70vh] lg:h-[55vh] bg-cover bg-center ">
                         <Image
                             src="/images/aboutImg.png"
                             alt="aboutImg"
@@ -166,7 +165,6 @@ const AboutSection = () => {
                             height={600}
                         />
                     </div>
-
                     <div className=" text-white w-full ">
                         <div className="flex flex-row mt-8">
                             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> {" "} Skills {" "} </TabButton>

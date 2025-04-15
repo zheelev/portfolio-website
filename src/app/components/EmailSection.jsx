@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import MailtoCopyButton from "./MailtoCopyButton";
+import PhoneLink from "./PhoneLink";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -50,11 +52,15 @@ const EmailSection = () => {
           Have an interesting project or a question? Feel free to reach out! I’m open to collaboration and always ready to discuss new opportunities.
         </p>
         <div className="socials flex flex-col gap-5">
-        {/*  <MdOutlineAlternateEmail 
-         size={24}
-         /> 
-         <FaPhone 
-         size={20}/> */}
+          <div className="flex gap-2 hover:text-red-500">
+          <MdOutlineAlternateEmail size={24}/>
+          <MailtoCopyButton/>
+          </div>
+         <div className="flex gap-2 hover:text-red-500">
+         <FaPhone size={20}/>
+         <PhoneLink/>
+         </div>
+         
         </div>
       </div>
       <div>

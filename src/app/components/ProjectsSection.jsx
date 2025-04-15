@@ -8,15 +8,15 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Project 1: Personal portfolio",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/zheelev/portfolio-website",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Next Js A-Clone UI",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],

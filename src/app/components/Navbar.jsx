@@ -30,9 +30,9 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#1E2129] opacity-100">
-            <div className="flex flex-wrap items-center justify-between  mx-auto px-4 py-3">
+            <div className="flex flex-wrap items-center justify-between  mx-auto px-4 py-3 xl:ml-55 xl:mr-55">
                 <Link href={"#home"} className=" text-lg md:text-3xl text-white font-semibold">
-                 <Image src="/images/logo.png" alt="hero image" width={32} height={32} />
+                 <Image src="/images/logo.png" alt="hero image" width={40} height={40} />
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {
